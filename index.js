@@ -10,7 +10,7 @@ module.exports = function (curl) {
 
     return `
       fetch( 
-            ${parsed.url}, 
+            '${parsed.url}', 
             {headers:${JSON.stringify(parsed.header)},
             method:'${parsed.method}'}
            )

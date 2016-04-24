@@ -15,7 +15,7 @@ Output:
 
 ```js
 fetch( 
-      https://api.sloths.com, 
+      'https://api.sloths.com', 
       {headers:{"Set-Cookie":"species=sloth;type=galactic"},
       method:'GET'}
      )
