@@ -1,12 +1,11 @@
-var parseCurl = require('parse-curl');
+var parseCurl = require('parse-curl')
 
 module.exports = function (curl) {
 
-    if (typeof curl !== 'string') {
-        throw new Error('Expected a string');
-    }
+    if (typeof curl !== 'string') 
+        throw new TypeError(`Expected String, Found ${typeof curl}`)
 
-    var parsed = parseCurl(curl);
+    var parsed = parseCurl(curl)
 
     return `
       fetch( 
@@ -14,5 +13,5 @@ module.exports = function (curl) {
             {headers:${JSON.stringify(parsed.header)},
             method:'${parsed.method}'}
            )
-           .then(console.log, console.error)`;
-};
+           .then(console.log, console.error)`
+}
