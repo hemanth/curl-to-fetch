@@ -60,4 +60,4 @@ console.log(fetchCode);
 
 > [h3manth.com](https://h3manth.com) &nbsp;&middot;&nbsp;
 > GitHub [@hemanth](https://github.com/hemanth) &nbsp;&middot;&nbsp;
-> Twitter [@tjholowaychuk](https://twitter.com/gnumanth)
+> Twitter [@gnumanth](https://twitter.com/gnumanth)
