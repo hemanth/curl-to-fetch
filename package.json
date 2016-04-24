@@ -1,0 +1,31 @@
+{
+  "name": "curl-to-fetch",
+  "version": "0.0.0",
+  "description": "Parse curl commands and returns `fetch` API equivalent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "c2f": "./cli.js"
+  },
+  "keywords": [
+    "curl",
+    "parse",
+    "fetch",
+    "codegen"
+  ],
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "license": "MIT",
+  "repository": "hemanth/color-type",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "parse-curl": "^0.2.3"
+  }
+}
