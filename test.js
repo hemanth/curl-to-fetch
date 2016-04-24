@@ -5,7 +5,13 @@ const cases = []
 
 cases.push({
     input: "curl --cookie 'species=sloth;type=galactic' slothy https://api.sloths.com",
-    output: "\n      fetch( \n            'https://api.sloths.com', \n            {headers:{\"Set-Cookie\":\"species=sloth;type=galactic\"},\n            method:'GET'}\n           )\n           .then(console.log, console.error)"
+    output: `
+      fetch( 
+            'https://api.sloths.com', 
+            {headers:{"Set-Cookie":"species=sloth;type=galactic"},
+            method:'GET'}
+           )
+           .then(console.log, console.error)`
 })
 
 cases.forEach(function (c) {
@@ -16,7 +22,6 @@ cases.forEach(function (c) {
     expected: ${JSON.stringify(c.output)}
     received: ${JSON.stringify(out)}
     `
-
     assert.deepEqual(out, c.output, msg)
 })
 
