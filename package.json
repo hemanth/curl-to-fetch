@@ -1,6 +1,6 @@
 {
   "name": "curl-to-fetch",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Parse curl commands and returns `fetch` API equivalent.",
   "main": "index.js",
   "scripts": {
