@@ -21,7 +21,7 @@
     "url": "http://h3manth.com"
   },
   "license": "MIT",
-  "repository": "hemanth/color-type",
+  "repository": "hemanth/curl-to-fetch",
   "engines": {
     "node": ">=4"
   },
